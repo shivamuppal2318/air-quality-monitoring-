@@ -1,3 +1,4 @@
+
 Project Description:
 The Air Quality Monitoring System is a portable device designed to measure various air quality parameters, including particulate matter, volatile organic compounds (VOCs), and carbon dioxide levels. The system aims to provide real-time data on indoor or outdoor air quality, which can be crucial for individuals, especially the elderly and those with respiratory conditions. The device will offer valuable insights into the air quality and help users make informed decisions about their environment.
 
@@ -12,9 +13,18 @@ Features:
 Components Required:
 ESP8266 NodeMCU: The ESP8266 NodeMCU is a popular development board based on the ESP8266 microcontroller. It features built-in Wi-Fi capabilities, making it suitable for IoT projects. The NodeMCU board provides GPIO pins for connecting external sensors and modules.
 
+![esp](https://github.com/shivamuppal2318/air-quality-monitoring-/assets/156002273/c657d01a-79ca-4491-b035-5029ae20b72c)
+
+
 MQ135 Air Quality Sensor: The MQ135 is a gas sensor that is sensitive to a wide range of harmful gases, including ammonia, nitrogen oxides, benzene, and carbon monoxide. It operates on the principle of conductivity changes in the presence of these gases. The output of the MQ135 sensor can be analog or digital, depending on the specific module used.
 
+![gassensor](https://github.com/shivamuppal2318/air-quality-monitoring-/assets/156002273/02783e06-abfa-4ec5-90a6-09adc19b0517)
+
+
+
 DHT11 Temperature and Humidity Sensor: The DHT11 is a low-cost sensor that provides temperature and humidity measurements. It consists of a capacitive humidity sensor and a thermistor for temperature measurement. The DHT11 sensor provides digital output, making it easy to interface with microcontrollers like the NodeMCU.
+
+![dht](https://github.com/shivamuppal2318/air-quality-monitoring-/assets/156002273/d11046a8-efdb-42dc-83df-c742e937696d)
 
 Here's how these components are typically connected in the hardware setup:
 
