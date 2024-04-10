@@ -1,81 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Certificate Form</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        .container {
-            max-width: 400px;
-            margin: 50px auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            background-color: #f9f9f9;
-        }
-        label {
-            display: block;
-            margin-bottom: 10px;
-        }
-        input[type="text"], input[type="number"], input[type="email"] {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        input[type="submit"] {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        input[type="submit"]:hover {
-            background-color: #45a049;
-        }
-        #heading{
-            margin-left : 30px;
-            padding : 0px;
-            color : #6c6c63;
-            font-size: 1.2rem;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Air Quality Monitoring System</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="heading"><h1>Add Credentials here...</h1></div>
-    <div class="container">
-        <form id="myForm" action="/add" method="post">
-
-            <label for="mail">GMail:</label>
-            <input type="email" id="mail" name="mail" required>            
-
-
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="age">Age</label>
-            <input type="number" id="age" name="age" required>
-
-            <label for="Address">Address</label>
-            <input type="text" id="address" name="address" required>
-
-            <label for="schoolCode">Phone Number</label>
-            <input type="text" id="phone" name="phone" required>
-
-            
-            <input type="submit" value="Submit">
-
-        </form>
+  <div class="container">
+    <h1 class="title">Air Quality Monitoring System</h1>
+    <div class="reading">
+      <div class="sensor-container">
+        <h2 class="sensor-title">Humidity</h2>
+        <p class="sensor-value"><span id="humidity-value">Loading...</span>%</p>
+      </div>
+      <div class="sensor-container">
+        <h2 class="sensor-title">Air Quality Index (AQI)</h2>
+        <p class="sensor-value"><span id="aqi-value">Loading...</span></p>
+      </div>
+      <div class="sensor-container">
+        <h2 class="sensor-title">Moisture</h2>
+        <p class="sensor-value"><span id="moisture-value">Loading...</span>%</p>
+      </div>
+      <button id="refresh-btn">Refresh</button>
     </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
-<script src="./your_script_file.js" type="module"></script>
 </html>
