@@ -41,4 +41,12 @@ Benefits:
 2. Environmental Awareness: Users can gain insights into the surrounding air quality, contributing to overall environmental awareness.
 3. Smart Decision Making: Real-time data will enable users to make informed decisions about indoor and outdoor activities based on air quality conditions.
 4. User-Friendly: The system will be designed for easy use and accessibility, catering to individuals of all age groups.
-
+n the project we have used models like RNN(LSTM) for predicting AQI content. RNN stands for
+Recurrent Neural Network, and LSTM stands for Long Short-Term Memory. These are types of neural
+networks that are great for processing sequential data, like time series data.
+Now, let's talk about the other models you mentioned, KNN classifier and SVM. KNN stands for k-
+Nearest Neighbors, and it's a simple yet effective algorithm for classification. It works by finding the k
+nearest neighbors to a given data point and assigns it to the majority class among those neighbors.
+SVM, which stands for Support Vector Machine, is another powerful algorithm used for classification
+and regression tasks. It works by finding the best possible hyperplane that separates different classes
+in the data. It's great for handling non-linear data and can handle higher-dimensional feature spaces.
