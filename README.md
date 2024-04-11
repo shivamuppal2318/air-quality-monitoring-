@@ -50,3 +50,51 @@ nearest neighbors to a given data point and assigns it to the majority class amo
 SVM, which stands for Support Vector Machine, is another powerful algorithm used for classification
 and regression tasks. It works by finding the best possible hyperplane that separates different classes
 in the data. It's great for handling non-linear data and can handle higher-dimensional feature spaces.
+
+MACHINE LEARNING:
+In the project we have used models like RNN(LSTM) for predicting AQI content. RNN stands for
+Recurrent Neural Network, and LSTM stands for Long Short-Term Memory. These are types of neural
+networks that are great for processing sequential data, like time series data.
+Now, let's talk about the other models you mentioned, KNN classifier and SVM. KNN stands for k-
+Nearest Neighbors, and it's a simple yet effective algorithm for classification. It works by finding the k
+nearest neighbors to a given data point and assigns it to the majority class among those neighbors.
+SVM, which stands for Support Vector Machine, is another powerful algorithm used for classification
+and regression tasks. It works by finding the best possible hyperplane that separates different classes
+in the data. It's great for handling non-linear data and can handle higher-dimensional feature spaces.
+Both KNN classifier and SVM have their strengths and weaknesses, and the choice between them
+depends on the specific problem and dataset you're working with.
+AirQuality Monitoring System
+Introduction
+Welcome to our AirQuality Monitoring System! This system provides real-time monitoring of air quality factors such as AQI (Air Quality Index), moisture, and humidity. The system includes a web application where users can log in and view the current readings of these factors.
+
+Features
+Real-time Monitoring: The system continuously monitors air quality factors and provides up-to-date readings.
+User Authentication: Users can securely log in to the web application to access the monitoring dashboard.
+AQI Display: The system calculates and displays the Air Quality Index (AQI) based on the collected data.
+Moisture and Humidity: In addition to AQI, the system also tracks moisture and humidity levels.
+User-Friendly Interface: The web application features an intuitive interface for easy navigation and data visualization.
+Technologies Used
+Backend: Python, Flask framework
+Frontend: HTML, CSS, JavaScript
+Database: SQLite for user authentication
+Data Visualization: Charts.js for displaying air quality data
+Installation
+Clone the repository: git clone https://github.com/your/repository.git
+Navigate to the project directory: cd airquality-monitoring-system
+Install dependencies: pip install -r requirements.txt
+Run the application: python app.py
+Access the web application in your browser at http://localhost:5000
+Usage
+Open your web browser and navigate to the application URL.
+If you are a new user, click on the "Sign Up" button to create an account. Otherwise, log in using your credentials.
+Once logged in, you will be redirected to the dashboard where you can view the current readings of AQI, moisture, and humidity.
+The dashboard also provides visualizations such as charts to display historical data trends.
+Contributors
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgements
+We would like to acknowledge the contributions of OpenAQ for providing air quality data APIs that helped in the development of this system.
+
+
